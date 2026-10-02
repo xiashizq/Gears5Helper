@@ -1,9 +1,9 @@
-# 战争机器 字幕和语音切换工具
+# Gears Subtitle and Voice Switcher
 
-[English](README.en.md) · [한국어](README.ko.md) · [日本語](README.ja.md)
+[中文](README.zh.md) · [한국어](README.ko.md) · [日本語](README.ja.md)
 
-拆开字幕和语音。游戏里选中文，语音可以是英文，或其他已下载的语言。
+Split subtitles from voice. Choose Chinese in-game and keep English audio, or any other installed voice pack.
 
-支持 **战争机器5 E-Day** 的 Steam 与微软商城。
+Supports **Gears 5 E-Day** on Steam and the Microsoft Store.
 
-战争机器5 还可单独指定游戏界面语言。改之前会备份，可还原。
+Gears 5 can also set the game UI language separately. Changes are backed up and can be restored.

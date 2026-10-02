@@ -1,6 +1,6 @@
 # Gears 字幕・音声切り替えツール
 
-[中文](README.md) · [English](README.en.md) · [한국어](README.ko.md)
+[English](README.md) · [中文](README.zh.md) · [한국어](README.ko.md)
 
 字幕と音声を分けます。ゲーム内で中国語を選んでも、英語や導入済みの他言語音声で遊べます。
 

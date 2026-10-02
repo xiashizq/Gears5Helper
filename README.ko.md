@@ -1,6 +1,6 @@
 # Gears 자막 및 음성 전환 도구
 
-[中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+[English](README.md) · [中文](README.zh.md) · [日本語](README.ja.md)
 
 자막과 음성을 분리합니다. 게임에서 중국어를 선택해도 영어 음성으로 둘 수 있고, 설치한 다른 음성으로도 바꿀 수 있습니다.
 
