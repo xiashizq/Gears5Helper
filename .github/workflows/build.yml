@@ -1,0 +1,32 @@
+name: Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Publish
+        run: >
+          dotnet publish src/Gears5Helper/Gears5Helper.csproj
+          -c Release
+          -o publish
+          --self-contained false
+          -p:PublishSingleFile=true
+          -p:DebugType=none
+          -p:DebugSymbols=false
+
+      - name: Pack
+        run: Compress-Archive -Path publish\* -DestinationPath Gears5Helper.zip
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Gears5Helper
+          path: Gears5Helper.zip

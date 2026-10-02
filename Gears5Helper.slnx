@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Gears5Helper/Gears5Helper.csproj" />
+  </Folder>
+</Solution>
